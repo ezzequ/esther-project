@@ -1,0 +1,140 @@
+body {
+ background-image: url(https://image.freepik.com/free-vector/seamless-pattern-with-cute-bear-background-cute-bear-doodle-art-kids_35322-945.jpg);
+}
+
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgba(247, 166, 200, 0.808);
+  border-radius: 10px;
+    
+    
+    
+    
+  }
+
+   #header-logo {
+    font-size: 50px;
+    font-family: Palatino, URW Palladio L, serif ;
+    font-weight: bolder;
+    color: rgb(95, 95, 95);
+   }
+
+p.text{
+  color:rgb(95, 95, 95) ;
+  font-style: Palatino, URW Palladio L, serif ;
+    
+}
+
+p{
+ color:rgb(95, 95, 95) ;
+ font-style: Palatino, URW Palladio L, serif ;
+ 
+}
+
+
+
+h1{
+  color:rgb(95, 95, 95) ;
+  font-style: Palatino, URW Palladio L, serif ;
+  
+}
+
+
+
+.nav {
+    
+  width: 100%;
+  background-color:rgba(247, 144, 186, 0.808); 
+  overflow: auto;
+  border-radius: 10px;
+    
+}
+
+.nav a{
+
+  float: left;
+  text-decoration: none;
+  font-size: 25px;
+  width: 16.60%;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+  color:rgb(95, 95, 95) ;
+  font-style: Palatino, URW Palladio L, serif ;
+    
+}
+
+
+.nav a:hover{
+  background-color:violet;
+
+}
+
+.column-big{
+    
+  float: right;
+  width: 75%;
+  padding: 1px;
+  background-color: rgba(255, 255, 255, 0.671);
+  border: solid 0.4em rgba(255, 255, 255, 0.664);
+  border-radius: 10px;
+  color: rgb(95, 95, 95);
+  font-size: 19px;
+} 
+
+  .column-small{
+  float: left;
+  width: 15%;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 0.4em rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  color: rgb(95, 95, 95);
+  font-size: 17px;
+}
+
+
+.center 
+  {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+} 
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  }
+
+
+  .footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f3a8c552;
+  margin-top: 20px;
+  clear: both;
+  }
+
+  @media screen and (max-width:775px)
+  {
+.column-big {width: 65%;}
+.column-small{width: 12%;}
+
+
+  }
+
+  @media screen and (max-width:550px)
+  {
+.column-big {width: 60%;}
+.column-small{width: 10%;}
+
+
+  }

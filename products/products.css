@@ -1,0 +1,133 @@
+body{
+ display: grid;
+ grid-template-columns: repeat(10,1fr);
+ grid-template-rows: repeat(24,1fr);
+ padding:0;
+ margin:0;
+ height:100vh ;
+ background-image:url(https://c4.wallpaperflare.com/wallpaper/649/200/63/digital-art-artwork-abstract-wallpaper-preview.jpg);
+ background-size:cover;   
+ background-repeat: no-repeat;
+    }
+
+.header{
+ background-color: pink;
+ text-align: center;
+ background: #facbddab;
+ border-radius: 10px;
+ grid-column: 1/11;
+ grid-row: 1/5;
+ color: grey;
+ font-style: Palatino, URW Palladio L, serif ;
+ 
+ 
+}
+
+
+.nav {
+background-color:rgba(247, 144, 186, 0.808); 
+overflow: auto;
+border-radius: 10px;
+grid-column: 1/11;
+grid-row: 5/5;
+    }
+     
+.nav a{
+float: left;
+text-decoration: none;
+font-size: 25px;
+width: 16.60%;
+text-align: center;
+overflow: hidden;
+border-radius: 10px;
+color: grey;
+         
+  }
+     
+     
+.nav a:hover{background-color:violet;
+  }
+
+#p-header{
+ margin-bottom:100%;
+ font-size: 40px;
+}
+
+p{
+ color: grey;
+ font-style: Palatino, URW Palladio L, serif ;
+ font-size: 18px;
+ text-decoration: none;
+}
+
+h1{
+ color: grey;
+ font-style: Palatino, URW Palladio L, serif ;
+ font-weight: bolder;
+}
+a {
+text-decoration: none;
+color: palevioletred;
+
+}
+.apple-pen{
+ background-image: url("./pennan.jpg");
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+ grid-column: 1/6;
+ grid-row: 6/12;
+ 
+}
+
+.apple-text{
+ grid-column: 6/11;
+ grid-row: 6/12;
+ background-color: rgba(255, 255, 240, 0);
+ object-fit: contain;
+ overflow: scroll;
+}
+
+.proc-text{
+ grid-column: 1/6;
+ grid-row: 12/19;
+ overflow: scroll;
+ 
+
+}
+
+.procreate{
+ grid-column: 6/11;
+ grid-row: 12/19;
+ background-image: url("./procreate.jpg");
+ background-size: 100% 100%;
+
+}
+
+.ipad{
+ grid-column: 1/6;
+ grid-row: 19/24;
+ background-image: url("./F1.jpg");
+ background-size: 100% 100%;
+
+}
+
+.ipad-text
+{
+ grid-column: 6/11;
+ grid-row: 19/24;
+ overflow: scroll;
+
+
+
+}
+
+
+
+
+.footer {
+ background-color: #f3a8c552;
+ grid-column: 1/11;
+ grid-row: 24/25;
+ text-align: center;
+   
+}

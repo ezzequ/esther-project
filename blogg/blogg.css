@@ -1,0 +1,91 @@
+body {
+ background-image:url(https://c4.wallpaperflare.com/wallpaper/649/200/63/digital-art-artwork-abstract-wallpaper-preview.jpg);
+ background-size:cover;   
+ background-repeat: no-repeat;
+}
+    
+.header {
+ background-image: url(https://data.whicdn.com/images/278041334/original.jpg);
+ background-size: contain;
+ background-repeat: repeat-x;
+ padding: 30px;
+ text-align: center;
+ border-radius: 10px;
+}
+
+.nav {
+    
+ width: 100%;
+ background-color:rgba(247, 144, 186, 0.808); 
+ overflow: auto;
+ border-radius: 10px;
+}
+  
+.nav a{
+  
+ float:left;
+ text-decoration: none;
+ font-size: 25px;
+ width: 16.65%;
+ text-align: center;
+ overflow: hidden;
+ border-radius: 15px;
+ color:rgb(95, 95, 95) ;
+ font-style: Palatino, URW Palladio L, serif ;
+      
+}
+   
+.nav a:hover{
+ background-color:violet;
+ transition:0.3s;
+  
+}
+
+p{
+ color:rgb(95, 95, 95) ;
+ font-style: Palatino, URW Palladio L, serif ;
+    
+}
+     
+h1{
+ color:rgb(95, 95, 95) ;
+ font-style: Palatino, URW Palladio L, serif ;
+     
+}
+
+
+.column2{
+    
+ float: right;
+ width: 58%;
+ padding: 1px;
+ background-color: rgba(255, 255, 255, 0.671);
+ border: solid 0.4em rgba(255, 255, 255, 0.664);
+ border-radius: 10px;
+ color: rgb(95, 95, 95);
+ font-size: 19px;
+} 
+
+
+.column1{
+    
+ float: right;
+ width: 38%;
+ padding: 1px;
+ background-color: rgba(255, 255, 255, 0.671);
+ border: solid 0.4em rgba(255, 255, 255, 0.664);
+ border-radius: 10px;
+ color: rgb(95, 95, 95);
+ font-size: 19px;
+} 
+
+
+.footer {
+ padding: 20px;
+ text-align: center;
+ background-color: #f3a8c552;
+ margin-bottom: 20px;
+ width: 100%;
+ position:relative;
+ clear: both;
+}
