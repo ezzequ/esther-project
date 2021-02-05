@@ -135,3 +135,24 @@ img, iframe {
  display: table;
  clear: both;
   }
+
+
+  @media screen and (max-width:1215px){
+ .column-textvideo{
+     width: 95%;
+     float: left;
+ }
+.column-video, .column-linkar{
+width: 45%;
+float: left;
+}
+  }
+
+  @media screen and (max-width:720px){
+
+    .column-textvideo,.column-video, .column-linkar{
+        width: 95%;
+        float: left;
+    }
+  }
+

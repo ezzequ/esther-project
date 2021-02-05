@@ -6,7 +6,7 @@ body {
     
 .header {
  background-image: url(https://data.whicdn.com/images/278041334/original.jpg);
- background-size: contain;
+ background-size: cover;
  background-repeat: repeat-x;
  padding: 30px;
  text-align: center;
@@ -89,3 +89,21 @@ h1{
  position:relative;
  clear: both;
 }
+
+@media screen and (max-width:876px){
+.column2,.column1 {
+    width: 46%;
+    float: left;
+}
+
+
+}
+
+@media screen and (max-width:704px){
+    .column2,.column1 {
+        width: 95%;
+        float: left;
+    }
+    
+    
+    }

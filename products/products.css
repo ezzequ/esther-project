@@ -40,7 +40,7 @@ width: 16.60%;
 text-align: center;
 overflow: hidden;
 border-radius: 10px;
-color: grey;
+color:rgb(95, 95, 95) ;
          
   }
      
@@ -54,14 +54,14 @@ color: grey;
 }
 
 p{
- color: grey;
+ color:rgb(95, 95, 95) ;
  font-style: Palatino, URW Palladio L, serif ;
  font-size: 18px;
  text-decoration: none;
 }
 
 h1{
- color: grey;
+  color:rgb(95, 95, 95) ;
  font-style: Palatino, URW Palladio L, serif ;
  font-weight: bolder;
 }
