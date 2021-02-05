@@ -4,7 +4,7 @@ body{
  grid-template-rows: repeat(24,1fr);
  padding:0;
  margin:0;
- height:100vh ;
+ height:200vh ;
  background-image:url(https://c4.wallpaperflare.com/wallpaper/649/200/63/digital-art-artwork-abstract-wallpaper-preview.jpg);
  background-size:cover;   
  background-repeat: no-repeat;
